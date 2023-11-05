@@ -1,0 +1,22 @@
+{
+  "name": "rmbg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "bun run ."
+  },
+  "keywords": [],
+  "author": "outfits.bio",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "onnxruntime-node": "^1.16.1",
+    "path": "^0.12.7",
+    "rembg-node": "^2.0.1",
+    "sharp": "^0.32.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.10"
+  }
+}
