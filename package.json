@@ -1,7 +1,7 @@
 {
   "name": "rmbg",
   "version": "1.0.0",
-  "description": "",
+  "description": "oss background removal technology",
   "main": "index.ts",
   "scripts": {
     "dev": "bun run ."
@@ -11,10 +11,8 @@
   "license": "MIT",
   "dependencies": {
     "fs": "0.0.1-security",
-    "onnxruntime-node": "^1.16.1",
     "path": "^0.12.7",
-    "rembg-node": "^2.0.1",
-    "sharp": "^0.32.6"
+    "transparent-background": "^1.4.0"
   },
   "devDependencies": {
     "@types/node": "^20.8.10"
