@@ -1,5 +1,5 @@
 # Remove Background (rmbg)
-Technology that removes the background of images using the inspyrenet 2022 ported to a node package.
+Technology that removes the background of images using the [inspyrenet 2022](https://github.com/plemeri/InSPyReNet) model ported to a node package.
 
 ## How to use?
 1. Install our [bun](https://bun.sh/) (fast runtime with built-in typescript support) i prefer using.

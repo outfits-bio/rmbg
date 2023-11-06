@@ -11,7 +11,7 @@ const removeBackground = async (filename: string) => {
     fast: false, // uses a 1024x1024 model by default, setting to true uses a 384x384 model instead (faster but lower quality).
   });
   await fs.promises.writeFile(path.join(processedDir, filename), output);
-  await fs.promises.unlink(path.join(imagesDir, filename)); 
+  await fs.promises.unlink(path.join(imagesDir, filename));
   console.log(`Processed ${filename}`);
 };
 
